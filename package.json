@@ -1,0 +1,24 @@
+{
+  "name": "react-websocket-server-tutorial",
+  "version": "1.0.0",
+  "description": "Repositório de tutorial para websockets em react, para disciplina Sistemas Orientados a Objetos UNESP Rio Claro 2021",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "build": "npm run clean && npm install",
+    "clean": "rm -rf ./node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghlsimionato/react-websocket-server-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghlsimionato/react-websocket-server-tutorial/issues"
+  },
+  "homepage": "https://github.com/ghlsimionato/react-websocket-server-tutorial#readme",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
+}
